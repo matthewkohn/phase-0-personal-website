@@ -1,12 +1,14 @@
 body {
   background-color: #1DCDE0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 h1 {
   color: #1363ED;
   font-size: 56px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
+  text-align: center;
 }
 
 h1 ~ p {
@@ -17,18 +19,48 @@ h1 ~ p {
 
 h3 {
   font-size: 24px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #14A4F7;
 }
 
 a {
-  
+  background-color: #13ED87;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 3px;
 }
 
+.container {
+  margin: 50px 0;
+}
 
 .lessons {
-  background-color: #13ED87;
-  border: 5px solid #14A4F7;
+  background-color: #14F7CE;
+  color: #1363ED;
+  border: 5px solid #13ED87;
   border-radius: 15px;
-  margin: 15px;
-  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0 60px;
+  width: 60%;
+  line-height: 40px;
+}
 
+footer {
+  background-color: #1363ED;
+  margin: 0;
+  text-align: center;
+  padding: 30px 0 50px;
+}
+
+footer p {
+  color: #14F7CE;
+  margin-bottom: 40px;
+}
+
+footer a {
+  padding: 20px;
+  border-radius: 10px;
 }
